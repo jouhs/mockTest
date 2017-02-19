@@ -21,12 +21,12 @@ public class CalServiceTest {
 	@Test
 	public void testTrueAddTwoNumbers() {
 		
-		Assert.assertEquals(7, calService.adddTwoNumbers(3, 3));
+		Assert.assertEquals(6, calService.adddTwoNumbers(3, 3));
 	}
 	
 	@Test
 	public void testFalseAddTwoNumbers() {
 		
-		Assert.assertEquals(7, calService.adddTwoNumbers(3, 3));
+		Assert.assertNotEquals(7, calService.adddTwoNumbers(3, 3));
 	}
 }
